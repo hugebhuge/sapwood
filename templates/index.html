@@ -1,0 +1,550 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sapwood | صنایع چوب</title>
+
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <!--<link rel="stylesheet" href="style.css"> -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+</head>
+
+<body>
+
+
+<header>
+
+    <div class="logo">
+    <a href="index.html">SAPWOOD</a>
+</div>
+   
+    <button class="menu-btn">
+    ☰
+    </button>
+
+    <nav>
+
+    <a href="#">خانه</a>
+
+    <a href="#products">محصولات</a>
+
+    <a href="#projects">نمونه‌ پروژه ها</a>
+
+    <a href="#about">درباره ما</a>
+
+    <a href="#services">خدمات</a>
+
+    <a href="#footer">تماس</a>
+
+    </nav>
+
+</header>
+
+    <div id="home"></div>
+    <section class="hero">
+
+
+    <div class="hero-content">
+
+        <p class="slogan">
+            جایی که چوب، ظرافت را نجوا می‌کند.
+        </p>
+
+        <h1>
+            طراحی، تولید و اجرای نرده و پله‌های لوکس چوبی
+        </h1>
+
+        <p>
+            SAPWOOD با تمرکز بر طراحی اختصاصی، تولید و اجرای نرده‌های چوبی،
+            پله‌های لوکس و نرده‌های کریستال، فضاهایی ماندگار و چشم‌نواز خلق می‌کند.
+        </p>
+
+
+        <div class="hero-buttons">
+
+            <a href="#gallery" class="btn">
+                 مشاهده گالری
+            </a>
+
+            <a href="#contact" class="btn btn-outline">
+    درخواست مشاوره
+            </a>
+            
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+<section class="stats">
+
+    <div class="stat">
+        <h2>+۲۰</h2>
+        <p>سال تجربه</p>
+    </div>
+
+    <div class="stat">
+        <h2>+۵۰۰</h2>
+        <p>پروژه اجرا شده</p>
+    </div>
+
+    <div class="stat">
+        <h2>+۱۰۰۰</h2>
+        <p>مشتری رضایتمند</p>
+    </div>
+
+    <div class="stat">
+        <h2>۱۰۰٪</h2>
+        <p>کیفیت متریال</p>
+    </div>
+
+</section>
+
+
+
+<section id="products" class="products fade-up" anchor>
+
+    <h2>محصولات SAPWOOD</h2>
+
+    <div class="product-container" dir="ltr">
+    <!--<div class="product-container"> -->
+
+
+
+        
+        <div class="product-card">
+        
+
+            <a href="{% static 'images/railing1.jpg'%}" class="glightbox" data-gallery="products">
+    <img src="{% static 'images/railing1.jpg'%}" alt="نرده چوبی کلاسیک">
+            </a>
+
+           <!-- <img src="images/railing1.jpg" alt="نرده چوبی کلاسیک"> -->
+
+            <h3>نرده چوبی کلاسیک</h3>
+
+            <p>
+                طراحی و اجرای نرده‌های چوبی کلاسیک با جزئیات ظریف و کیفیت بالا برای فضاهای لوکس.
+            </p>
+
+            <button>
+                مشاهده بیشتر
+            </button>
+
+        </div>
+        
+
+
+       
+         <div class="product-card"> 
+
+            <a href="{% static 'images/railing2.jpg '%}" class="glightbox" data-gallery="products">
+    <img src="{% static 'images/railing2.jpg '%}" alt="نرده چوبی کلاسیک">
+            </a>
+
+
+        <!-- <img src="images/railing2.jpg"> -->
+
+            <h3>نرده راه‌پله لوکس</h3>
+
+            <p>
+                ساخت نرده‌های چوبی مدرن با طراحی خاص، مناسب خانه‌ها و ویلاهای امروزی.
+            </p>
+
+            <button>
+                مشاهده بیشتر
+            </button>
+
+        </div>
+        
+        <div class="product-card">
+
+            <a href="{% static 'images/railing3.jpg'%}" class="glightbox" data-gallery="products">
+    <img src="{% static 'images/railing3.jpg '%}" alt="نرده چوبی کلاسیک">
+            </a>
+
+           <!-- <img src="images/railing3.jpg">-->
+
+            <h3>نرده چوبی مدرن</h3>
+
+            <p>
+                طراحی و تولید نرده‌های سفارشی مطابق سبک معماری و سلیقه مشتری.
+            </p>
+
+            <button>
+                مشاهده بیشتر
+            </button>
+
+        </div>
+        
+
+    </div>
+
+</section>
+
+
+
+<section id="projects" class="projects fade-up" anchor>
+
+    <h2>نمونه پروژه‌ها</h2>
+
+
+    <div class="project-container">
+
+
+        <div class="project-card">
+
+            <a href="{% static 'images/project1.jpg'%}" class="glightbox" data-gallery="projects">
+    <img src="{% static 'images/project1.jpg'%}" alt="">
+            </a>
+
+
+           <!-- <img src="images/project1.jpg"> -->
+
+            <h3>ویلای مدرن</h3>
+
+            <p>
+                اجرای نرده چوبی لوکس برای فضای داخلی ویلا.
+            </p>
+
+        </div>
+
+
+
+        <div class="project-card">
+
+           <a href="{% static 'images/project2.jpg'%}" class="glightbox" data-gallery="projects">
+    <img src="{% static 'images/project2.jpg'%}" alt="">
+           </a>
+
+           <!-- <img src="images/project2.jpg"> -->
+
+            <h3>راه‌پله کلاسیک</h3>
+
+            <p>
+                طراحی و اجرای نرده چوبی با سبک کلاسیک.
+            </p>
+
+        </div>
+
+
+
+        <div class="project-card">
+
+             <a href="{% static 'images/project3.jpg'%}" class="glightbox" data-gallery="projects">
+    <img src="{% static 'images/project3.jpg'%}" alt="">
+            </a>
+
+           <!-- <img src="images/project3.jpg"> -->
+
+            <h3>طراحی سفارشی</h3>
+
+            <p>
+                ساخت نرده مطابق معماری و سلیقه مشتری.
+            </p>
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+<!-- Gallery Section -->
+
+<section id="gallery" class="gallery fade-up">
+
+    <h2>گالری نمونه کارها</h2>
+
+    <div class="gallery-container">
+
+
+        <div class="gallery-item">
+            <a href="{% static 'images/gallry1.jpg'%}" class="glightbox">
+            <img src="{% static 'images/gallry1.jpg'%}" alt="">
+            </a>
+        </div>
+
+
+      <!--  <div class="gallery-item">
+            <img src="images/gallry1.jpg">
+        </div> -->
+
+
+        <div class="gallery-item">
+    <a href="{% static 'images/gallry2.jpg'%}" class="glightbox">
+        <img src="{% static 'images/gallry2.jpg'%}" alt="">
+    </a>
+        </div>
+
+      <!--  <div class="gallery-item">
+            <img src="images/gallry2.jpg">
+        </div> -->
+
+
+        <div class="gallery-item">
+    <a href="{% static 'images/gallry3.jpg'%}" class="glightbox">
+        <img src="{% static 'images/gallry3.jpg'%}" alt="">
+    </a>
+        </div>
+
+      <!-- <div class="gallery-item">
+            <img src="images/gallry3.jpg">
+        </div>  -->
+
+
+        <div class="gallery-item">
+    <a href="{% static 'images/gallry4.jpg'%}" class="glightbox">
+        <img src="{% static 'images/gallry4.jpg'%}" alt="">
+    </a>
+        </div>
+
+       <!-- <div class="gallery-item">
+            <img src="images/gallry4.jpg">
+        </div> -->
+
+    </div>
+
+</section>
+
+
+
+<!-- About Section -->
+
+<section id="about" class="about fade-up" anchor>
+
+    <div class="about-content">
+
+        <h2>درباره SAPWOOD</h2>
+
+        <p>
+            SAPWOOD با بهره‌گیری از دانش طراحی، تجربه اجرایی و انتخاب متریال باکیفیت،
+            در زمینه طراحی و اجرای نرده‌های چوبی، پله‌های لوکس و فضاهای داخلی فعالیت می‌کند.
+        </p>
+
+        <p>
+            هدف ما خلق فضاهایی است که ترکیبی از اصالت چوب، زیبایی معماری و ظرافت در اجرا باشند.
+        </p>
+
+    </div>
+
+</section>
+
+
+
+<!-- Services Section -->
+
+<section id="services" class="services fade-up">
+
+    <h2>خدمات ما</h2>
+
+
+    <div class="service-container">
+
+
+        <div class="service-card">
+
+            <h3>طراحی اختصاصی</h3>
+
+            <p>
+                طراحی نرده و پله مطابق سبک معماری و سلیقه مشتری.
+            </p>
+
+        </div>
+
+
+
+        <div class="service-card">
+
+            <h3>تولید و اجرا</h3>
+
+            <p>
+                ساخت محصولات چوبی با کیفیت بالا و اجرای دقیق در محل پروژه.
+            </p>
+
+        </div>
+
+
+
+        <div class="service-card">
+
+            <h3>مشاوره تخصصی</h3>
+
+            <p>
+                ارائه راهکارهای مناسب برای انتخاب طرح و متریال.
+            </p>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+<!-- Contact Section -->
+
+<section id="contact" class="contact fade-up" anchor>
+
+    <h2>درخواست مشاوره</h2>
+
+    <p>
+        برای طراحی و اجرای پروژه خود با ما در ارتباط باشید.
+    </p>
+
+
+ <!--   <form  method="POST" action="/consultation/"> -->
+    <form method="POST" class="contact-form">
+{% csrf_token %}
+
+<input 
+type="text" 
+name="name"
+placeholder="نام">
+
+<input 
+type="text"
+name="city"
+placeholder="شهر">
+
+<input 
+type="text"
+name="phone"
+placeholder="شماره تماس">
+
+<textarea 
+name="description"
+placeholder="توضیحات درخواست">
+</textarea>
+      <!--  <input type="text" placeholder="نام شما">
+
+        <input type="tel" placeholder="شماره تماس">
+
+        <input type="text" placeholder="شهر">
+        
+        <textarea placeholder="توضیحات پروژه"></textarea> -->
+
+        <button>
+            ارسال درخواست
+        </button>
+
+    </form>
+
+</section>
+
+<!-- Footer -->
+
+<footer id="footer">
+
+    <div class="footer-container">
+
+
+        <div class="footer-about">
+
+            <h3>SAPWOOD</h3>
+
+            <p>
+                طراحی و اجرای نرده‌های چوبی،
+                پله‌های لوکس و فضاهای داخلی با ترکیب هنر و اصالت چوب.
+            </p>
+
+        </div>
+
+
+
+        <div class="footer-links">
+
+            <h3>دسترسی سریع</h3>
+
+            <a href="#">خانه</a>
+            <a href="#products">محصولات</a>
+            <a href="#projects">نمونه پروژه ها</a>
+            <a href="#footer">تماس</a>
+            
+        </div>
+
+
+
+        <div class="footer-contact">
+
+            <h3>ارتباط با ما</h3>
+
+            <p>
+                تلفن: ۰۹۱۲xxxxxxx
+            </p>
+
+            <p>
+                ایمیل: info@sapwood.ir
+            </p>
+
+        </div>
+
+
+    </div>
+
+
+    <div class="copyright">
+
+        © تمامی حقوق متعلق به SAPWOOD است.
+
+    </div>
+
+
+</footer>
+
+<button id="topBtn">
+    ↑
+</button>
+
+
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+<!--<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>-->
+<!--<script src="script.js"></script>-->
+<script src="{% static 'script.js' %}"></script>
+
+
+
+<!--<script>
+const lightbox = GLightbox();
+</script>-->
+<div id="success-message" class="success-message">
+
+    <div class="success-box">
+
+        <div class="success-icon">
+            ✓
+        </div>
+
+        <h3>درخواست شما ثبت شد</h3>
+
+        <p>
+            کارشناسان SAPWOOD به‌زودی با شما تماس می‌گیرند.
+        </p>
+
+        <button id="close-success" type="button">
+    متوجه شدم
+</button>
+        <!--<button id="close-success">
+            متوجه شدم
+        </button>-->
+
+    </div>
+
+</div>
+
+</body>
+
+</html>
+
